@@ -7,7 +7,13 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 const data = reactive({
-  list: []
+  list: [{
+  name: "bear",
+  password: "123",
+  email: "114514@hitsz.com",
+  gender: "1",
+  remark: "test",
+}]
 })
 
 onMounted(() => {
